@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/Ex2.css">
+
+
+  </head>
+  <body>
+    <form class="the" action="index.html" method="post">
+    <table cellpadding="7" id="tab">
+      <tr>
+        <th colspan="3"> The Country Guessing Game </th>
+      </tr>
+      <tr>
+        <td>Enter Your Name Here:</td>
+        <td colspan="2"><input type="text" id="playerName" class="starting" name="name" placeholder="Enter Name"> </td>
+      </tr>
+      <tr>
+        <td>Deposit:</td>
+        <td colspan="2"> <input type="number" id="depo" class="starting" name="depo" min="1" max="100" placeholder="Enter Amount"> </td>
+      </tr>
+      <tr id="divider">
+        <td>Money Remaining: <span id="deposited">0</span></td>
+        <td colspan="2"> <button type="button" name="Start" class="starting" id="start" onclick="set()">Start</button> </td>
+      </tr>
+      <tr>
+        <td> <button type="button" class="waging" name="wager" id="wager" onclick="wagers()">Wage</button> </td>
+        <td> <input type="number" id="waged" class="waging" name="waged" placeholder="Wage money"></td>
+        <td>Money Waged: <span id="wagered">0</span></td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="3" id="toGuess"> <br> </td>
+
+      </tr>
+      <tr>
+        <td colspan="2" id="comment"></td>
+        <td colspan="1" id="comment2"></td>
+        
+      </tr>
+      <tr>
+        <td id="op">Trials Left: <span id="counter">0</span></td>
+        <td> <input type="text" class="playing" placeholder="Guess" maxlength="1" id="toCheck" onkeyup="go.focus()") = true;" disabled> </td>
+
+      </tr>
+      <tr class="last">
+        <td>
+          <button type="reset" name="reset" id="reset" class="playing" onclick="resets()" disabled>Restart</button>
+        </td>
+        <td>
+          <button type="button" name="guess" id="go" class="playing" onclick="checking()" onkeyup="toCheck.focus()" disabled>Check</button>
+        </td>
+        <td>
+          <button type="button" name="retry" id="retry" class="playing" onclick="retrys()" disabled>Retry</button>
+        </td>
+      </tr>
+
+    </table>
+    </form>
+    <script type="text/javascript" src="js/Ex2.js"></script>
+  </body>
+</html>
