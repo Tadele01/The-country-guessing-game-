@@ -1,0 +1,102 @@
+body{
+  text-align: right;
+  font-family: sans-serif;
+
+}
+  table{
+
+    margin-left: 15%;
+    padding: 20px;
+    width: 70%;
+    background: #EEEEEE;
+    font-size: 1.2em;
+    border-radius: 5px;
+
+  }
+  input{
+    font-size: 0.8em;
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 7px;
+    padding:5px 13px;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: inset 0px 0px 10px 4px #DDDDDD;
+
+  }
+  input:focus {
+    box-shadow: inset 0px 0px 0px 0px #EEEEEE;
+  }
+  button{
+    float: left;
+    margin-left: 10%;
+    font-size: 0.8em;
+    padding:5px 13px;
+    border-radius: 5px;
+    background: #0000FF;
+    border: none;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  #toGuess{
+    background: #FFFFFF;
+    width: 100%;
+    margin: 15%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing:7px;
+    line-height: 25px;
+    box-shadow: inset 0px 0px 10px 2px #EEEEEE;
+  }
+  #deposited,#counter,#wagered{
+    background: #FFFFFF;
+    padding: 7px 10px;
+    border-radius: 100px;
+    font-size: 0.8em;
+    font-family: monospace;
+  }
+  #toCheck,th{
+    width: 20%;
+    text-align: center;
+  }
+  #comment{
+
+    font-size: 0.9em;
+    font-family: cursive;
+    color: red;
+    text-align: center;
+  }
+  #comment2{
+    text-align: center;
+    color: #4444BB;
+    font-family: cursive;
+  }
+  #op{
+    opacity:0.5;
+    width: 30%;
+  }
+  .last td{
+    opacity:0.5;
+    width: 40%;
+    padding: 5px;
+  }
+  #divider td,#divider+tr td{
+    border-bottom: 1px solid #AAAAAA;
+  }
+
+  #divider+tr td{
+    width: 35%;
+    text-align: center; 
+  }
+ 
+ #go,#reset{
+  margin-left: 43px;
+ }
+  #wager{
+    float: right;
+  }
